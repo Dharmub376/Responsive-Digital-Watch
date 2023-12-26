@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #3494e6, #ec6ead);
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.clock-container {
+  background-color: rgba(200, 200, 200, 0.627);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#digital-clock {
+  font-size: 5em;
+  text-align: center;
+  color: #000000;
+  font-weight: bolder;
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
